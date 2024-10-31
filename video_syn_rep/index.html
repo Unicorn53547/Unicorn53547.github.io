@@ -91,11 +91,11 @@
     <div class="gap-5"></div>
     
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-20">
         <center>
-            <span style="font-size:18px"><sup>1</sup>ShanghaiTech University</span>
-            <span style="font-size:18px"><sup>2</sup>Meta AI</span>
-            <span style="font-size:18px"><sup>3</sup>UC Berkeley</span>
+            <span style="font-size:20px"><sup>1</sup>ShanghaiTech University</span>
+            <span style="font-size:20px"><sup>2</sup>Meta AI</span>
+            <span style="font-size:20px"><sup>3</sup>UC Berkeley</span>
 
         </center>
       </div>      
@@ -130,7 +130,7 @@
       <hr>
       <!--------------------- content --------------------->
       <!-- <div class="gap-20"></div> -->
-      <b><span style="font-size:25px">Progression of video generation processes</span></b>
+      <center><b><span style="font-size:25px">Progression of video generation processes</span></b></center>
       <div class="gap-10"></div>
       <p align="left">We provide examples of each of the datasets in the presented progression.</p>
       <h3 style="font-size:21px">&#8226; Static circles</h3>
@@ -357,7 +357,7 @@
       
       <hr>
     
-    <b><span style="font-size:25px">Performance</span></b>
+    <center><b><span style="font-size:25px">Performance</span></b></center>
     <div class="gap-10"></div>
     <p>We evaluate our pre-trained models for action recognition. We test the models on UCF101, a dataset that contains 13,320 video clips of human actions categorized to 101 classes, on HMDB51, a dataset of additional 6,766 human action video clips categorized to 51 classes. We evaluate out-of-distribution action recognition on UCF101-P, which includes videos from the test-set of UCF101, corrupted with 4 types of low-level synthetic corruptions - camera motion, blur, noise, and digital corruptions.</p>
 
@@ -385,7 +385,7 @@
 
     <hr>
     
-    <b><span style="font-size:25px">Dataset Analysis</span></b>
+    <center><b><span style="font-size:25px">Dataset Analysis</span></b></center>
     <div class="gap-10"></div>
     <p>
       During our experiments, we created multiple versions of each dataset we presented, with differences in configuration (e.g. different video background colors and different object speeds). In total, we generated 28 datasets and trained ViT-B VideoMAE on each. 
@@ -396,7 +396,7 @@
       We compare the downstream classification accuracy on UCF101 after fine-tuning to frame and video properties of all the dataset variants we used</i></p>
     <hr>
 
-    <b><span style="font-size:25px">Feature visualization</span></b>
+    <center><b><span style="font-size:25px">Feature visualization</span></b></center>
     <div class="gap-10"></div>
     <p>
       We visualize the learned representation produced by the above models. We compute PCA on the attention keys extracted from the last VideoMAE encoder layer across 32 frames from 70 videos from the same class of UCF101. We plot the first three principal components as red, green, and blue channels and present features for 2-frame inputs 
@@ -616,7 +616,7 @@
 
     <b><span style="font-size:25px">Acknowledgements</span></b>
     <div class="gap-20"></div>
-    <p> The authors would like to thank Amil Dravid and Ren Wang for their valuable comments and feedback on our paper. YG is supported by the Google Fellowship. </p>
+    <p> The authors would like to thank Amil Dravid and Ren Wang for their valuable comments and feedback on our paper; and thank UC Berkeley for the computational support to perform data processing and experiments. YG is supported by the Google Fellowship.  </p>
   </body>
   </div>
 
