@@ -1,1 +1,6 @@
-
+@article{yu2024learning,
+  title={Learning Video Representations without Natural Videos},
+  author={Yu, Xueyang and Chen, Xinlei and Gandelsman, Yossi},
+  journal={arXiv preprint arXiv:2410.24213},
+  year={2024}
+}
